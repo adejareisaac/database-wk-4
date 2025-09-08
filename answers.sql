@@ -11,7 +11,6 @@ GROUP BY paymentDate
 ORDER BY paymentDate DESC
 LIMIT 5;
 
-
 /*
 Question 2
 Write an SQL query to find the average credit limit of each customer from customers table.
@@ -43,3 +42,4 @@ FROM payments
 GROUP BY checkNumber;
 
 SELECT * FROM payments;
+
